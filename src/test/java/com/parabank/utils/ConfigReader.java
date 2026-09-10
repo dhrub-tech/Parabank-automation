@@ -9,46 +9,35 @@ public final class ConfigReader {
     private static final Properties PROPERTIES = new Properties();
 
     static {
-        try (InputStream input = ConfigReader.class
-                .getClassLoader()
-                .getResourceAsStream("config.properties")) {
-
+        try (InputStream input = ConfigReader.class.getClassLoader().getResourceAsStream("config.properties")) {
             if (input == null) {
-                throw new IllegalStateException(
-                        "config.properties not found"
-                );
+                throw new IllegalStateException("config.properties file not found in resources directory");
             }
-
             PROPERTIES.load(input);
-
         } catch (IOException e) {
-            throw new RuntimeException(
-                    "Unable to load configuration", e
-            );
+            throw new RuntimeException("Unable to load configuration properties", e);
         }
     }
 
-    private ConfigReader() {
-    }
+    private ConfigReader() {}
 
-    public static String get(String key) {
-
+    public static String getProperty(String key) {
         String value = PROPERTIES.getProperty(key);
-
         if (value == null || value.isBlank()) {
-            throw new IllegalArgumentException(
-                    "Missing configuration: " + key
-            );
+            throw new IllegalArgumentException("Property key '" + key + "' not found or empty in config.properties");
         }
-
         return value;
     }
 
+    public static String get(String key) {
+        return getProperty(key);
+    }
+
     public static int getInt(String key) {
-        return Integer.parseInt(get(key));
+        return Integer.parseInt(getProperty(key).trim());
     }
 
     public static boolean getBoolean(String key) {
-        return Boolean.parseBoolean(get(key));
+        return Boolean.parseBoolean(getProperty(key).trim());
     }
 }
