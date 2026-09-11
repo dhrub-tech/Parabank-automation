@@ -1,0 +1,1212 @@
+2026-09-11T04:37:57.702Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:37:57.714Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "precheckCompleted",
+  "status": "succeeded",
+  "phase": "precheck",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "17",
+        "targetVersion": "25"
+      }
+    ]
+  },
+  "message": "Maven Java project detected; upgrading compiler/runtime target from Java 17 to latest LTS Java 25."
+}}).
+2026-09-11T04:37:57.716Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:37:57.719Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:37:57.726Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:37:57.727Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:37:57.733Z [INFO] Project java version: 17
+2026-09-11T04:37:57.735Z [INFO] Maven project detected.
+2026-09-11T04:37:57.736Z [INFO] Build tool type: mvn
+2026-09-11T04:37:57.868Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "version": "17"
+}
+2026-09-11T04:37:57.879Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": "",
+  "source": "MAVEN_HOME,PATH"
+}
+2026-09-11T04:37:57.880Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "MAVEN_HOME,PATH"
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:38:00.036Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:38:00.037Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "planGenerationStarted",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Starting Java 25 upgrade plan generation."
+}}).
+2026-09-11T04:38:00.039Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:38:00.041Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:38:00.044Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:38:00.568Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:38:00.570Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "planGenerationStarted",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Starting Java 25 upgrade plan generation."
+}}).
+2026-09-11T04:38:00.571Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:38:00.575Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:38:00.576Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:38:05.665Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-09-11T04:38:05.666Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260911043757",
+  "additionalSearchPaths": [],
+  "version": ""
+}}).
+2026-09-11T04:38:05.667Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:38:05.669Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-09-11T04:38:05.670Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-09-11T04:38:05.831Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-09-11T04:38:05.832Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "additionalSearchPaths": [],
+  "version": ""
+}}).
+2026-09-11T04:38:05.833Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:38:05.859Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.19\n   📁 Path: C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin\n   🏷️ Source: PATH\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-09-11T04:38:05.860Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-09-11T04:38:05.900Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-09-11T04:38:05.901Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260911043757",
+  "additionalSearchPaths": [],
+  "includeVersion": true
+}}).
+2026-09-11T04:38:05.903Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:38:05.905Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-09-11T04:38:05.906Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-09-11T04:38:06.054Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-09-11T04:38:06.055Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "additionalSearchPaths": [],
+  "includeVersion": true
+}}).
+2026-09-11T04:38:06.056Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:38:10.000Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 3.9.16\n   📁 Path: C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin\n   🏷️ Source: MAVEN_HOME,PATH\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-09-11T04:38:10.001Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-09-11T04:38:37.783Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:38:37.785Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "planReviewed",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Plan covers Java 25 installation, Java 17 baseline, Maven compiler configuration, and final compile/test validation."
+}}).
+2026-09-11T04:38:37.786Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:38:37.788Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:38:37.790Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:38:38.156Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:38:38.157Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "planReviewed",
+  "status": "succeeded",
+  "phase": "plan",
+  "message": "Plan covers Java 25 installation, Java 17 baseline, Maven compiler configuration, and final compile/test validation."
+}}).
+2026-09-11T04:38:38.159Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:38:38.164Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:38:38.165Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:38:40.935Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-09-11T04:38:40.936Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260911043757",
+  "autoExecute": true
+}}).
+2026-09-11T04:38:40.937Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:38:40.939Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Auto-executing [upgrade plan](file:///c:/Users/Dhrub Chatterjee/OneDrive/Desktop/Projects/Parabank-automation/.github/modernize/java-upgrade/20260911043757/plan.md)"
+}}).
+2026-09-11T04:38:40.940Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-09-11T04:38:41.265Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-09-11T04:38:41.267Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "autoExecute": true
+}}).
+2026-09-11T04:38:41.268Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:38:41.270Z [INFO] Upgrade plan confirmed successfully.
+2026-09-11T04:38:41.272Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-09-11T04:38:41.275Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-09-11T04:38:48.303Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-09-11T04:38:48.304Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20260911043757",
+  "version": "25",
+  "dest": "C:\\Users\\Dhrub Chatterjee\\.jdk"
+}}).
+2026-09-11T04:38:48.306Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:38:49.456Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK"
+}}).
+2026-09-11T04:38:49.458Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-09-11T04:38:49.739Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-09-11T04:38:49.741Z [INFO] [Tool.invoke]({name: appmod-install-jdk, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "version": "25",
+  "dest": "C:\\Users\\Dhrub Chatterjee\\.jdk"
+}}).
+2026-09-11T04:38:49.742Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:40:19.737Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "version": "25.0.2"
+  },
+  "message": "JDK 25 is installed at C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "25"
+  }
+}}).
+2026-09-11T04:40:19.738Z [INFO] ----------------------invoked appmod-install-jdk----------------------
+2026-09-11T04:40:28.945Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-09-11T04:40:28.947Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260911043757",
+  "additionalSearchPaths": [
+    "C:\\Users\\Dhrub Chatterjee\\.jdk"
+  ],
+  "version": "25"
+}}).
+2026-09-11T04:40:28.949Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:40:28.951Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-09-11T04:40:28.953Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-09-11T04:40:29.147Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-09-11T04:40:29.148Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "additionalSearchPaths": [
+    "C:\\Users\\Dhrub Chatterjee\\.jdk"
+  ],
+  "version": "25"
+}}).
+2026-09-11T04:40:29.150Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:40:29.188Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 25.0.2\n   📁 Path: C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin\n   🏷️ Source: others\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-09-11T04:40:29.189Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-09-11T04:40:29.359Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:40:29.361Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "environmentSetup",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+  },
+  "message": "Installed and detected JDK 25.0.2; Maven 3.9.16 is available."
+}}).
+2026-09-11T04:40:29.363Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:40:29.365Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:40:29.367Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:40:29.640Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:40:29.642Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "environmentSetup",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+  },
+  "message": "Installed and detected JDK 25.0.2; Maven 3.9.16 is available."
+}}).
+2026-09-11T04:40:29.643Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:40:29.648Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:40:29.651Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:40:29.652Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:40:29.656Z [INFO] Project java version: 17
+2026-09-11T04:40:29.659Z [INFO] Build tool type detected from path: mvn
+2026-09-11T04:40:29.660Z [INFO] Build tool type: mvn
+2026-09-11T04:40:29.662Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "version": "17"
+}
+2026-09-11T04:40:29.663Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-11T04:40:29.665Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:40:32.701Z [INFO] ---------------------prepare appmod-build-java-project----------------------
+2026-09-11T04:40:32.703Z [INFO] [Tool.prepareInvocation]({name: appmod-build-java-project, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:40:32.705Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:40:32.707Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Build project"
+}}).
+2026-09-11T04:40:32.710Z [INFO] ----------------------prepared appmod-build-java-project----------------------
+2026-09-11T04:40:32.961Z [INFO] ----------------------invoke appmod-build-java-project----------------------
+2026-09-11T04:40:32.963Z [INFO] [Tool.invoke]({name: appmod-build-java-project, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:40:32.966Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:40:32.968Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:40:32.972Z [INFO] Project java version: 17
+2026-09-11T04:40:32.974Z [INFO] Build tool type detected from path: mvn
+2026-09-11T04:40:32.975Z [INFO] Build tool type: mvn
+2026-09-11T04:40:32.977Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "version": "17"
+}
+2026-09-11T04:40:32.978Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-11T04:40:32.980Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:40:32.982Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:40:32.988Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+2026-09-11T04:40:47.958Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-11T04:40:47.962Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:40:47.963Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:40:47.970Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-9969d174-10f7-4abb-94bd-d24f0448abdf.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.parabank:parabank-ui-automation >-----------------
+[INFO] Building parabank-ui-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ parabank-ui-automation ---
+[INFO] Effective-POM written to: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\effective-pom-9969d174-10f7-4abb-94bd-d24f0448abdf.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.172 s
+[INFO] Finished at: 2026-09-11T10:10:55+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-11T04:40:55.435Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-11T04:40:55.479Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-11T04:40:55.480Z [INFO] [MavenBuildTool] Cleaning c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:40:55.484Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+2026-09-11T04:41:01.388Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation from pom.xml
+2026-09-11T04:41:01.389Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:41:01.390Z [INFO] Build succeeded! There are no build errors in the project.
+2026-09-11T04:41:01.392Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml
+2026-09-11T04:41:01.393Z [INFO] [Tool.invoke]({result: {
+  "message": "Build succeeded! There are no build errors in the project.",
+  "result": {
+    "numOfJavaFiles": 9,
+    "numOfClassFiles": 9,
+    "modulesBuildResult": {
+      ".": {
+        "numOfJavaFiles": 9,
+        "numOfClassFiles": 9
+      }
+    },
+    "errors": [],
+    "command": "mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true"
+  },
+  "telemetry": {
+    "result": "succeeded"
+  }
+}}).
+2026-09-11T04:41:01.395Z [INFO] ----------------------invoked appmod-build-java-project----------------------
+2026-09-11T04:41:01.400Z [INFO] [MavenBuildTool] Java version found in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml: 17
+2026-09-11T04:41:02.002Z [INFO] ---------------------prepare appmod-run-tests-for-java----------------------
+2026-09-11T04:41:02.003Z [INFO] [Tool.prepareInvocation]({name: appmod-run-tests-for-java, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:41:02.004Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:41:02.006Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Run tests"
+}}).
+2026-09-11T04:41:02.007Z [INFO] ----------------------prepared appmod-run-tests-for-java----------------------
+2026-09-11T04:41:02.135Z [INFO] ----------------------invoke appmod-run-tests-for-java----------------------
+2026-09-11T04:41:02.136Z [INFO] [Tool.invoke]({name: appmod-run-tests-for-java, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:41:02.138Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:41:02.140Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:41:02.144Z [INFO] Project java version: 17
+2026-09-11T04:41:02.146Z [INFO] Build tool type detected from path: mvn
+2026-09-11T04:41:02.147Z [INFO] Build tool type: mvn
+2026-09-11T04:41:02.149Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "version": "17"
+}
+2026-09-11T04:41:02.151Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-11T04:41:02.152Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:41:02.154Z [INFO] Building project before running tests...
+2026-09-11T04:41:02.155Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:41:02.162Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+2026-09-11T04:41:13.595Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-11T04:41:13.597Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:41:13.599Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:41:13.603Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-80021881-f40d-4935-b3dc-fe6f197a17e9.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.parabank:parabank-ui-automation >-----------------
+[INFO] Building parabank-ui-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ parabank-ui-automation ---
+[INFO] Effective-POM written to: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\effective-pom-80021881-f40d-4935-b3dc-fe6f197a17e9.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.973 s
+[INFO] Finished at: 2026-09-11T10:11:20+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-11T04:41:20.599Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-11T04:41:20.617Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-11T04:41:20.618Z [INFO] [MavenBuildTool] Cleaning c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:41:20.623Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+2026-09-11T04:41:26.632Z [INFO] Running tests...
+2026-09-11T04:41:26.634Z [INFO] [MavenBuildTool] Running test cases of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:41:26.638Z [INFO] [Environment] Running command (Java undefined): mvn clean test -q -B -fn
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.104 s <<< FAILURE! -- in com.parabank.tests.ConfigReaderTest
+[ERROR] com.parabank.tests.ConfigReaderTest.verifyConfiguration -- Time elapsed: 0.077 s <<< ERROR!
+java.lang.IllegalArgumentException: Property key 'base.url' not found or empty in config.properties
+	at com.parabank.utils.ConfigReader.getProperty(ConfigReader.java:27)
+	at com.parabank.utils.ConfigReader.get(ConfigReader.java:33)
+	at com.parabank.tests.ConfigReaderTest.verifyConfiguration(ConfigReaderTest.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.69 s <<< FAILURE! -- in com.parabank.tests.SmokeTest
+[ERROR] com.parabank.tests.SmokeTest.verifyUserRegistrationAndLoginFlow -- Time elapsed: 14.60 s <<< FAILURE!
+java.lang.AssertionError: Account Overview missing after registration. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.parabank.tests.SmokeTest.verifyUserRegistrationAndLoginFlow(SmokeTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+
+[ERROR] Failures: 
+[ERROR]   SmokeTest.verifyUserRegistrationAndLoginFlow:27 Account Overview missing after registration. expected [true] but found [false]
+[ERROR] Errors: 
+[ERROR]   ConfigReaderTest.verifyConfiguration:12 � IllegalArgument Property key 'base.url' not found or empty in config.properties
+[ERROR] Tests run: 2, Failures: 1, Errors: 1, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.6.0:test (default-test) on project parabank-ui-automation: There are test failures.
+[ERROR] 
+[ERROR] See c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2026-09-11T04:42:06.972Z [INFO] [MavenBuildTool] loading surefire reports.
+2026-09-11T04:42:07.021Z [INFO] [MavenBuildTool] summarizing surefire reports.
+2026-09-11T04:42:07.023Z [INFO] [Tool.invoke]({result: {
+  "message": "Tests failed with 1 errors and 1 failures:\n- Property key 'base.url' not found or empty in config.properties\n  ```\n  java.lang.IllegalArgumentException: Property key 'base.url' not found or empty in config.properties\n  \tat com.parabank.utils.ConfigReader.getProperty(ConfigReader.java:27)\n  \tat com.parabank.utils.ConfigReader.get(ConfigReader.java:33)\n  \tat com.parabank.tests.ConfigReaderTest.verifyConfiguration(ConfigReaderTest.java:12)\n  \tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n  \tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\n  \tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)\n  \tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\n  \tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\n  \tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)\n  \tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\n  \tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\n  \tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\n  \tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n  \tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n  \tat org.testng.TestRunner.run(TestRunner.java:616)\n  \tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\n  \tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\n  \tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\n  \tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\n  \tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n  \tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n  \tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\n  \tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\n  \tat org.testng.TestNG.runSuites(TestNG.java:1112)\n  \tat org.testng.TestNG.run(TestNG.java:1079)\n  \n  ```\n- Account Overview missing after registration. expected [true] but found [false]\n  ```\n  java.lang.AssertionError: Account Overview missing after registration. expected [true] but found [false]\n  \tat org.testng.Assert.fail(Assert.java:111)\n  \tat org.testng.Assert.failNotEquals(Assert.java:1590)\n  \tat org.testng.Assert.assertTrue(Assert.java:57)\n  \tat com.parabank.tests.SmokeTest.verifyUserRegistrationAndLoginFlow(SmokeTest.java:27)\n  \tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n  \tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\n  \tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)\n  \tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\n  \tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\n  \tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)\n  \tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\n  \tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\n  \tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\n  \tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n  \tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n  \tat org.testng.TestRunner.run(TestRunner.java:616)\n  \tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\n  \tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\n  \tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\n  \tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\n  \tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n  \tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n  \tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\n  \tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\n  \tat org.testng.TestNG.runSuites(TestNG.java:1112)\n  \tat org.testng.TestNG.run(TestNG.java:1079)\n  \n  ```",
+  "result": {
+    "errors": [
+      {
+        "errorMessage": "Property key 'base.url' not found or empty in config.properties",
+        "raw": "java.lang.IllegalArgumentException: Property key 'base.url' not found or empty in config.properties\n\tat com.parabank.utils.ConfigReader.getProperty(ConfigReader.java:27)\n\tat com.parabank.utils.ConfigReader.get(ConfigReader.java:33)\n\tat com.parabank.tests.ConfigReaderTest.verifyConfiguration(ConfigReaderTest.java:12)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:616)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\n\tat org.testng.TestNG.run(TestNG.java:1079)\n",
+        "testcaseName": "verifyConfiguration"
+      }
+    ],
+    "failures": [
+      {
+        "errorMessage": "Account Overview missing after registration. expected [true] but found [false]",
+        "raw": "java.lang.AssertionError: Account Overview missing after registration. expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:111)\n\tat org.testng.Assert.failNotEquals(Assert.java:1590)\n\tat org.testng.Assert.assertTrue(Assert.java:57)\n\tat com.parabank.tests.SmokeTest.verifyUserRegistrationAndLoginFlow(SmokeTest.java:27)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:616)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\n\tat org.testng.TestNG.run(TestNG.java:1079)\n",
+        "testcaseName": "verifyUserRegistrationAndLoginFlow"
+      }
+    ],
+    "summary": {
+      "tests": 2,
+      "failures": 1,
+      "errors": 1,
+      "skipped": 0
+    },
+    "reports": [
+      {
+        "name": "com.parabank.tests.SmokeTest",
+        "time": 23.695,
+        "tests": 1,
+        "errors": 0,
+        "skipped": 0,
+        "failures": 1,
+        "testcases": [
+          {
+            "name": "verifyUserRegistrationAndLoginFlow",
+            "classname": "com.parabank.tests.SmokeTest",
+            "time": 14.595,
+            "failures": [
+              {
+                "content": "java.lang.AssertionError: Account Overview missing after registration. expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:111)\n\tat org.testng.Assert.failNotEquals(Assert.java:1590)\n\tat org.testng.Assert.assertTrue(Assert.java:57)\n\tat com.parabank.tests.SmokeTest.verifyUserRegistrationAndLoginFlow(SmokeTest.java:27)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:616)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\n\tat org.testng.TestNG.run(TestNG.java:1079)\n",
+                "message": "Account Overview missing after registration. expected [true] but found [false]",
+                "type": "java.lang.AssertionError"
+              }
+            ],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      },
+      {
+        "name": "com.parabank.tests.ConfigReaderTest",
+        "time": 0.104,
+        "tests": 1,
+        "errors": 1,
+        "skipped": 0,
+        "failures": 0,
+        "testcases": [
+          {
+            "name": "verifyConfiguration",
+            "classname": "com.parabank.tests.ConfigReaderTest",
+            "time": 0.077,
+            "failures": [],
+            "rerunFailures": [],
+            "flakyFailures": [],
+            "errors": [
+              {
+                "content": "java.lang.IllegalArgumentException: Property key 'base.url' not found or empty in config.properties\n\tat com.parabank.utils.ConfigReader.getProperty(ConfigReader.java:27)\n\tat com.parabank.utils.ConfigReader.get(ConfigReader.java:33)\n\tat com.parabank.tests.ConfigReaderTest.verifyConfiguration(ConfigReaderTest.java:12)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:744)\n\tat org.testng.TestRunner.run(TestRunner.java:616)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\n\tat org.testng.TestNG.runSuites(TestNG.java:1112)\n\tat org.testng.TestNG.run(TestNG.java:1079)\n",
+                "message": "Property key 'base.url' not found or empty in config.properties",
+                "type": "java.lang.IllegalArgumentException"
+              }
+            ],
+            "rerunErrors": [],
+            "flakyErrors": []
+          }
+        ]
+      }
+    ]
+  },
+  "telemetry": {
+    "result": "failed"
+  }
+}}).
+2026-09-11T04:42:07.024Z [INFO] ----------------------invoked appmod-run-tests-for-java----------------------
+2026-09-11T04:42:11.620Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:42:11.621Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "baselineSetup",
+  "status": "failed",
+  "phase": "execute",
+  "message": "Java 17 baseline compiled successfully, but tests had 1 error and 1 failure: missing base.url configuration and registration flow assertion failure."
+}}).
+2026-09-11T04:42:11.623Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:42:11.625Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:42:11.626Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:42:11.771Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:42:11.773Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "baselineSetup",
+  "status": "failed",
+  "phase": "execute",
+  "message": "Java 17 baseline compiled successfully, but tests had 1 error and 1 failure: missing base.url configuration and registration flow assertion failure."
+}}).
+2026-09-11T04:42:11.774Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:42:11.778Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:42:11.781Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:42:11.827Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:42:11.830Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "buildCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Java 17 baseline build succeeded with main and test compilation."
+}}).
+2026-09-11T04:42:11.831Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:42:11.833Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:42:11.834Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:42:11.964Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:42:11.965Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "buildCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Java 17 baseline build succeeded with main and test compilation."
+}}).
+2026-09-11T04:42:11.966Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:42:11.968Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:42:11.970Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:42:11.972Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:42:11.977Z [INFO] Project java version: 17
+2026-09-11T04:42:11.979Z [INFO] Maven project detected.
+2026-09-11T04:42:11.981Z [INFO] Build tool type: mvn
+2026-09-11T04:42:12.019Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:42:12.020Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "testCompleted",
+  "status": "failed",
+  "phase": "execute",
+  "message": "Java 17 baseline tests: 1 error and 1 failure, both unrelated to Java version."
+}}).
+2026-09-11T04:42:12.022Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:42:12.024Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:42:12.025Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:42:12.097Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "version": "17"
+}
+2026-09-11T04:42:12.115Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": "",
+  "source": "MAVEN_HOME,PATH"
+}
+2026-09-11T04:42:12.117Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "MAVEN_HOME,PATH"
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:42:12.119Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:42:12.121Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:42:12.128Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-622b629f-3dce-46fb-83ac-145ffc9b0e9c.log
+2026-09-11T04:42:12.246Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:42:12.249Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "testCompleted",
+  "status": "failed",
+  "phase": "execute",
+  "message": "Java 17 baseline tests: 1 error and 1 failure, both unrelated to Java version."
+}}).
+2026-09-11T04:42:12.250Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:42:12.256Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:42:12.257Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:42:12.305Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:42:12.306Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Maven Java Target"
+  },
+  "message": "Applying Java 25 compiler configuration."
+}}).
+2026-09-11T04:42:12.308Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:42:12.310Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:42:12.311Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:42:12.501Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:42:12.503Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "upgradeStepStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Maven Java Target"
+  },
+  "message": "Applying Java 25 compiler configuration."
+}}).
+2026-09-11T04:42:12.504Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:42:12.508Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:42:12.509Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:42:18.719Z [INFO] ---------------------prepare appmod-build-java-project----------------------
+2026-09-11T04:42:18.720Z [INFO] [Tool.prepareInvocation]({name: appmod-build-java-project, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:42:18.722Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:42:18.724Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Build project"
+}}).
+2026-09-11T04:42:18.725Z [INFO] ----------------------prepared appmod-build-java-project----------------------
+[INFO] Scanning for projects...
+2026-09-11T04:42:18.978Z [INFO] ----------------------invoke appmod-build-java-project----------------------
+2026-09-11T04:42:18.980Z [INFO] [Tool.invoke]({name: appmod-build-java-project, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:42:18.989Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:42:19.008Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:42:19.035Z [INFO] Project java version: 25
+2026-09-11T04:42:19.050Z [INFO] Build tool type detected from path: mvn
+2026-09-11T04:42:19.062Z [INFO] Build tool type: mvn
+2026-09-11T04:42:19.078Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "version": "25"
+}
+2026-09-11T04:42:19.104Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-11T04:42:19.118Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:42:19.130Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:42:19.138Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+[INFO] 
+[INFO] ----------------< com.parabank:parabank-ui-automation >-----------------
+[INFO] Building parabank-ui-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ parabank-ui-automation ---
+[INFO] Effective-POM written to: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\effective-pom-622b629f-3dce-46fb-83ac-145ffc9b0e9c.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.765 s
+[INFO] Finished at: 2026-09-11T10:12:21+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-11T04:42:21.661Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-11T04:42:21.698Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-11T04:42:21.699Z [INFO] [MavenBuildTool] Cleaning c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:42:21.703Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+2026-09-11T04:42:28.381Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation from pom.xml
+2026-09-11T04:42:28.382Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:42:28.383Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml
+2026-09-11T04:42:28.386Z [INFO] [MavenBuildTool] Java version found in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml: 25
+2026-09-11T04:42:34.049Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-11T04:42:34.051Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:42:34.053Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:42:34.059Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-dbaf6828-e35e-419c-8a35-9813dbcf9ccb.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.parabank:parabank-ui-automation >-----------------
+[INFO] Building parabank-ui-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ parabank-ui-automation ---
+[INFO] Effective-POM written to: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\effective-pom-dbaf6828-e35e-419c-8a35-9813dbcf9ccb.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.093 s
+[INFO] Finished at: 2026-09-11T10:12:40+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-11T04:42:41.023Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-11T04:42:41.055Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-11T04:42:41.056Z [INFO] [MavenBuildTool] Cleaning c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:42:41.060Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-11T04:42:48.218Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation from pom.xml
+2026-09-11T04:42:48.219Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:42:48.221Z [INFO] Build succeeded! There are no build errors in the project.
+2026-09-11T04:42:48.222Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml
+2026-09-11T04:42:48.223Z [INFO] [Tool.invoke]({result: {
+  "message": "Build succeeded! There are no build errors in the project.",
+  "result": {
+    "numOfJavaFiles": 9,
+    "numOfClassFiles": 9,
+    "modulesBuildResult": {
+      ".": {
+        "numOfJavaFiles": 9,
+        "numOfClassFiles": 9
+      }
+    },
+    "errors": [],
+    "command": "mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true"
+  },
+  "telemetry": {
+    "result": "succeeded"
+  }
+}}).
+2026-09-11T04:42:48.225Z [INFO] ----------------------invoked appmod-build-java-project----------------------
+2026-09-11T04:42:48.232Z [INFO] [MavenBuildTool] Java version found in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml: 25
+2026-09-11T04:42:52.025Z [INFO] ---------------------prepare appmod-run-tests-for-java----------------------
+2026-09-11T04:42:52.027Z [INFO] [Tool.prepareInvocation]({name: appmod-run-tests-for-java, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:42:52.029Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:42:52.030Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Run tests"
+}}).
+2026-09-11T04:42:52.032Z [INFO] ----------------------prepared appmod-run-tests-for-java----------------------
+2026-09-11T04:42:52.268Z [INFO] ----------------------invoke appmod-run-tests-for-java----------------------
+2026-09-11T04:42:52.269Z [INFO] [Tool.invoke]({name: appmod-run-tests-for-java, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:42:52.270Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:42:52.271Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:42:52.274Z [INFO] Project java version: 25
+2026-09-11T04:42:52.276Z [INFO] Build tool type detected from path: mvn
+2026-09-11T04:42:52.277Z [INFO] Build tool type: mvn
+2026-09-11T04:42:52.279Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "version": "25"
+}
+2026-09-11T04:42:52.280Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-11T04:42:52.281Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:42:52.283Z [INFO] Building project before running tests...
+2026-09-11T04:42:52.284Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:42:52.288Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-11T04:43:00.537Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-11T04:43:00.539Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:43:00.540Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:43:00.545Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-9402c261-9dfc-48c2-8870-d1d9d9b6e4cb.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.parabank:parabank-ui-automation >-----------------
+[INFO] Building parabank-ui-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ parabank-ui-automation ---
+[INFO] Effective-POM written to: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\effective-pom-9402c261-9dfc-48c2-8870-d1d9d9b6e4cb.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.021 s
+[INFO] Finished at: 2026-09-11T10:13:07+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-11T04:43:07.214Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-11T04:43:07.242Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-11T04:43:07.243Z [INFO] [MavenBuildTool] Cleaning c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:43:07.248Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-11T04:43:13.950Z [ERROR] Cannot run tests due to build errors.
+2026-09-11T04:43:13.952Z [ERROR] Failed running tests: UserError: Cannot run tests due to build errors:
+ - 
+    === Config File error
+    The below errors can be due to missing dependencies. You may have to refer
+    to the config files provided earlier to solve it.
+    'errorMessage': Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils
+
+2026-09-11T04:43:13.954Z [ERROR] [Tool.invoke] error occurs when invoking tool appmod-run-tests-for-java: UserError: Failed running tests: UserError: Cannot run tests due to build errors:
+ - 
+    === Config File error
+    The below errors can be due to missing dependencies. You may have to refer
+    to the config files provided earlier to solve it.
+    'errorMessage': Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils
+.
+2026-09-11T04:43:13.955Z [INFO] ----------------------invoked appmod-run-tests-for-java----------------------
+2026-09-11T04:43:14.574Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-09-11T04:43:14.577Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "buildCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Java 25 main and test compilation succeeded after Maven target upgrade."
+}}).
+2026-09-11T04:43:14.578Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:43:14.581Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-09-11T04:43:14.583Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-09-11T04:43:14.787Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-09-11T04:43:14.789Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "event": "buildCompleted",
+  "status": "succeeded",
+  "phase": "execute",
+  "message": "Java 25 main and test compilation succeeded after Maven target upgrade."
+}}).
+2026-09-11T04:43:14.790Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:43:14.791Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:43:14.794Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260911043757,\nSession Dir: c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation\\.github\\modernize\\java-upgrade\\20260911043757"
+}}).
+2026-09-11T04:43:14.795Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-09-11T04:43:14.799Z [INFO] Project java version: 25
+2026-09-11T04:43:14.801Z [INFO] Maven project detected.
+2026-09-11T04:43:14.802Z [INFO] Build tool type: mvn
+2026-09-11T04:43:14.923Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "version": "25"
+}
+2026-09-11T04:43:14.930Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": "",
+  "source": "MAVEN_HOME,PATH"
+}
+2026-09-11T04:43:14.931Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "MAVEN_HOME,PATH"
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:43:14.932Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:43:14.933Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:43:14.938Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-54661166-445a-4d87-adbb-47be14e93fa3.log
+2026-09-11T04:43:17.878Z [INFO] ---------------------prepare appmod-run-tests-for-java----------------------
+2026-09-11T04:43:17.879Z [INFO] [Tool.prepareInvocation]({name: appmod-run-tests-for-java, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:43:17.881Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-11T04:43:17.883Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Run tests"
+}}).
+2026-09-11T04:43:17.884Z [INFO] ----------------------prepared appmod-run-tests-for-java----------------------
+2026-09-11T04:43:18.017Z [INFO] ----------------------invoke appmod-run-tests-for-java----------------------
+2026-09-11T04:43:18.018Z [INFO] [Tool.invoke]({name: appmod-run-tests-for-java, modelId: auto, input: {
+  "sessionId": "20260911043757",
+  "projectPath": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation",
+  "jdkPath": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "buildToolPath": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin"
+}}).
+2026-09-11T04:43:18.019Z [INFO] [Tool.invoke] do invoke.
+2026-09-11T04:43:18.021Z [INFO] Project c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation is a maven project, try to get java version from pom.xml
+2026-09-11T04:43:18.024Z [INFO] Project java version: 25
+2026-09-11T04:43:18.026Z [INFO] Build tool type detected from path: mvn
+2026-09-11T04:43:18.027Z [INFO] Build tool type: mvn
+2026-09-11T04:43:18.028Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+  "version": "25"
+}
+2026-09-11T04:43:18.029Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-11T04:43:18.030Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\apache-maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\Dhrub Chatterjee\\.jdk\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Parabank-automation",
+  "dir": "c:\\Users\\Dhrub Chatterjee\\OneDrive\\Desktop\\Projects\\Parabank-automation"
+}
+2026-09-11T04:43:18.031Z [INFO] Building project before running tests...
+2026-09-11T04:43:18.032Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:43:18.036Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.parabank:parabank-ui-automation >-----------------
+[INFO] Building parabank-ui-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ parabank-ui-automation ---
+[INFO] Effective-POM written to: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\effective-pom-54661166-445a-4d87-adbb-47be14e93fa3.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.027 s
+[INFO] Finished at: 2026-09-11T10:13:21+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-11T04:43:21.846Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-11T04:43:21.887Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-11T04:43:21.888Z [INFO] [MavenBuildTool] Cleaning c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:43:21.892Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-11T04:43:26.798Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-11T04:43:26.800Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:43:26.802Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:43:26.806Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-7aff920d-c5d6-4a24-89d0-981dab17716c.log
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-11T04:43:29.101Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation from pom.xml
+2026-09-11T04:43:29.102Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation
+2026-09-11T04:43:29.104Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml
+2026-09-11T04:43:29.107Z [INFO] [MavenBuildTool] Java version found in c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\pom.xml: 25
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.parabank:parabank-ui-automation >-----------------
+[INFO] Building parabank-ui-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.2:effective-pom (default-cli) @ parabank-ui-automation ---
+[INFO] Effective-POM written to: c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\effective-pom-7aff920d-c5d6-4a24-89d0-981dab17716c.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.925 s
+[INFO] Finished at: 2026-09-11T10:13:33+05:30
+[INFO] ------------------------------------------------------------------------
+2026-09-11T04:43:33.775Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-11T04:43:33.803Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-11T04:43:33.804Z [INFO] [MavenBuildTool] Cleaning c:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation using Maven
+2026-09-11T04:43:33.808Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-11T04:43:40.908Z [ERROR] Cannot run tests due to build errors.
+2026-09-11T04:43:40.909Z [ERROR] Failed running tests: UserError: Cannot run tests due to build errors:
+ - 
+    === Config File error
+    The below errors can be due to missing dependencies. You may have to refer
+    to the config files provided earlier to solve it.
+    'errorMessage': Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils
+
+2026-09-11T04:43:40.911Z [ERROR] [Tool.invoke] error occurs when invoking tool appmod-run-tests-for-java: UserError: Failed running tests: UserError: Cannot run tests due to build errors:
+ - 
+    === Config File error
+    The below errors can be due to missing dependencies. You may have to refer
+    to the config files provided earlier to solve it.
+    'errorMessage': Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean) on project parabank-ui-automation: Failed to clean project: Failed to delete C:\Users\Dhrub Chatterjee\OneDrive\Desktop\Projects\Parabank-automation\target\test-classes\com\parabank\utils
+.
+2026-09-11T04:43:40.912Z [INFO] ----------------------invoked appmod-run-tests-for-java----------------------

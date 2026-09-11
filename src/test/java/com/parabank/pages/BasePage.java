@@ -39,4 +39,12 @@ public class BasePage {
             return false;
         }
     }
+    protected void selectByVisibleText(By locator, String text) {
+    WebElement element = wait.until(
+            ExpectedConditions.visibilityOfElementLocated(locator)
+    );
+
+    new org.openqa.selenium.support.ui.Select(element)
+            .selectByVisibleText(text);
+}
 }

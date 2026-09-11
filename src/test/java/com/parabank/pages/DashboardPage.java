@@ -7,6 +7,7 @@ public class DashboardPage extends BasePage {
 
     private By linkLogout = By.xpath("//a[text()='Log Out']");
     private By txtAccountOverviewHeader = By.xpath("//h1[text()='Accounts Overview']");
+    private By txtWelcomeHeader = By.xpath("//h1[contains(@class, 'title')]");
 
     public DashboardPage(WebDriver driver) {
         super(driver);
@@ -18,5 +19,8 @@ public class DashboardPage extends BasePage {
 
     public void logout() {
         click(linkLogout);
+    }
+    public boolean isWelcomeHeaderDisplayed() {
+        return isDisplayed(txtWelcomeHeader);
     }
 }

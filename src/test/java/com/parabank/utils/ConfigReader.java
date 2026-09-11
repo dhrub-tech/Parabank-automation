@@ -1,29 +1,27 @@
 package com.parabank.utils;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public final class ConfigReader {
-
-    private static final Properties PROPERTIES = new Properties();
+public class ConfigReader {
+    private static Properties properties = new Properties();
 
     static {
         try (InputStream input = ConfigReader.class.getClassLoader().getResourceAsStream("config.properties")) {
-            if (input == null) {
-                throw new IllegalStateException("config.properties file not found in resources directory");
+            if (input != null) {
+                properties.load(input);
             }
-            PROPERTIES.load(input);
-        } catch (IOException e) {
-            throw new RuntimeException("Unable to load configuration properties", e);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
-    private ConfigReader() {}
-
     public static String getProperty(String key) {
-        String value = PROPERTIES.getProperty(key);
-        if (value == null || value.isBlank()) {
+        String value = properties.getProperty(key);
+        if (value == null && key.equals("base.url")) {
+            value = properties.getProperty("baseUrl");
+        }
+        if (value == null || value.trim().isEmpty()) {
             throw new IllegalArgumentException("Property key '" + key + "' not found or empty in config.properties");
         }
         return value;
